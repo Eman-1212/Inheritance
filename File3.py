@@ -16,7 +16,7 @@ class Penguin(Bird):
         print("Penguin is ready")
 
     def whoisThis(self):
-        print(Penguin)
+        print("Penguin")
 
     def run(self):
         print("Run faster")
@@ -24,4 +24,5 @@ class Penguin(Bird):
 peggy = Penguin()
 peggy.whoisThis()
 peggy.swim()
+
 peggy.run()
